@@ -15,7 +15,7 @@ public class MainApplication {
 
         System.out.println("Hello! Welcome to Pet Zone. RAWR! How many pets do you have?");
         numberOfPets = response.nextInt();
-        typeOfPet = response.nextLine();
+        response.nextLine();
 
         for (int i = 0; i < numberOfPets; i++) {
 
@@ -36,7 +36,7 @@ public class MainApplication {
         }
 
         for (int i = 0; i < ownersPets.size(); i++){
-            System.out.println(ownersPets.get(i).getPetName() + ownersPets.get(i).speak());
+            System.out.println("'" + ownersPets.get(i).speak() + "' - " + ownersPets.get(i).getPetName());
         }
 
 

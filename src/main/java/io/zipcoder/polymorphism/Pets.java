@@ -14,7 +14,7 @@ public class Pets {
         return petName;
     }
 public String speak(){
-   return "animal sounds of some sort";
+   return "uhhh... animal sounds of some sort";
     }
 
 
